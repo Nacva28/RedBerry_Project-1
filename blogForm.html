@@ -1,0 +1,38 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./blog.css" />
+    <title>My Blogs</title>
+    <script defer src="./blogform.js"></script>
+  </head>
+  <body>
+    <a href="index.html">🡰</a>
+    <form id="blogForm">
+      <label for="author">ავტორი*</label>
+      <input type="text" id="author" required />
+
+      <label for="blogTitle">სათაური*</label>
+      <input type="text" id="blogTitle" required />
+      <label for="blogContent">აღწერა*</label>
+      <textarea id="blogContent" rows="4" required></textarea>
+
+      <label for="date">გამოყენების თარიღი</label>
+      <input type="date" id="date" required />
+
+      <label for="category">კატეგორია</label>
+      <select id="category" required>
+        <option value="category1">Category 1</option>
+        <option value="category2">Category 2</option>
+      </select>
+
+      <label for="Email">ელ-ფოსტა</label>
+      <input type="email" name="" id="" placeholder="Example@redberry.ge" />
+
+      <button type="button" onclick="addBlog()">Submit Blog</button>
+    </form>
+
+    <div id="blogContainer"></div>
+    <script src="blog.js"></script>
+  </body>
+</html>

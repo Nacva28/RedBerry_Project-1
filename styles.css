@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-container {
+  background-color: white;
+}
+
+.nav_bar {
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  width: auto;
+}
+.logo-nav-img {
+  width: 170px;
+  height: 30px;
+}
+.nav-login-btn {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #5d37f3;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 595px;
+}
+.main_text {
+  color: #1a1a1f;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.header {
+  display: flex;
+  padding: 76px;
+  width: auto;
+  height: 350px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e4e3eb;
+}
+
+.main_image {
+  width: 650px;
+  height: 200px;
+}
+#categoryContainer {
+  width: auto;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e3eb;
+}
+.clicked {
+  border: 2px solid black;
+}
